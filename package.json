@@ -1,0 +1,17 @@
+{
+  "name": "crypto-desk",
+  "version": "1.0.0",
+  "description": "crypto-currency desktop app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Furqan17",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "2.0.5"
+  },
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
