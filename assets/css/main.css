@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,600");
+
+body {
+  background: rgb(0, 8, 71);
+  color: #fff;
+  font-family: "Montserrat";
+  -webkit-app-region: drag;
+}
+
+.row {
+  width: 100%;
+  background: rgb(0, 8, 71);
+  display: grid;
+  grid-template-columns: 100%;
+  align-items: center;
+  -webkit-app-region: drag;
+}
+
+#price-containerBTC {
+  display: inline;
+  background: linear-gradient(to right, rgb(53, 53, 194), rgb(173, 45, 173));
+  padding: 0 10px;
+  text-align: center;
+  border-radius: 25px;
+  margin: 3%;
+  box-shadow: 2px 5px 4px #313131;
+  -webkit-app-region: drag;
+}
+
+#price-containerETH {
+  display: inline;
+  background: linear-gradient(to right, rgb(200, 198, 47), rgb(29, 211, 105));
+  padding: 0 10px;
+  text-align: center;
+  border-radius: 25px;
+  margin: 3%;
+  box-shadow: 2px 5px 4px #313131;
+  -webkit-app-region: drag;
+}
+
+#price-containerLTC {
+  display: inline;
+  background: linear-gradient(to right, rgb(153, 25, 42), rgb(218, 147, 34));
+  padding: 0 10px;
+  text-align: center;
+  margin: 3%;
+  border-radius: 25px;
+  box-shadow: 2px 5px 4px #313131;
+  -webkit-app-region: drag;
+}
+
+#price-containerXRP {
+  display: inline;
+  background: linear-gradient(to right, rgb(36, 34, 155), rgb(26, 199, 230));
+  padding: 0 10px;
+  text-align: center;
+  margin: 3%;
+  border-radius: 25px;
+  box-shadow: 2px 5px 4px #313131;
+  -webkit-app-region: drag;
+}
+
+.subtext {
+  font-size: 0.9em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+h1 {
+  margin: 0 0 10px 0;
+}
+
+#appname {
+  text-align: center;
+  font-size: 1.8em;
+  margin: 5%;
+}
