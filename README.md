@@ -1,9 +1,11 @@
-![img](https://raw.githubusercontent.com/Furqan17/crypto-desk/master/img-src/updatedlogo.png)  
+<p align="center"><img src="https://raw.githubusercontent.com/Furqan17/crypto-desk/master/img-src/updatedlogo.png"></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/axios-0.18.0-blue.svg"/>
-  <img src="https://img.shields.io/badge/electron-2.0.5-blue.svg"/>
-  <img src="https://img.shields.io/badge/version-1.0.0-orange.svg"/>
-  <img src="https://img.shields.io/badge/platform-win64%20%7C%20osx-brightgreen.svg"/>
-  <img src="https://img.shields.io/badge/license-MIT-ff69b4.svg"/>
+  <a href="https://github.com/axios/axios"><img src="https://img.shields.io/badge/axios-0.18.0-blue.svg"></a>
+  <a href="https://electronjs.org/"><img src="https://img.shields.io/badge/electron-2.0.5-blue.svg"></a>
+  <a href="https://github.com/Furqan17/crypto-desk/blob/master/package.json"><img src="https://img.shields.io/badge/version-1.0.0-orange.svg"></a>
+  <a href="https://technet.microsoft.com/en-us/library/bb496995.aspx"><img src="https://img.shields.io/badge/platform-win64%20%7C%20osx-brightgreen.svg" alt="ver"></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-ff69b4.svg"></a>
 </p>
+
+<p align="center"> <b> A responsive desktop application displaying live Cryptocurrency prices </b> </p>
