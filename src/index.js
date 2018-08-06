@@ -42,6 +42,8 @@ function getXRP() {
     });
 }
 
+//setInterval controls the refresh time; note in ms.
+
 getBTC();
 setInterval(getBTC, 5000);
 
