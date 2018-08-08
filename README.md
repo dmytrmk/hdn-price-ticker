@@ -9,3 +9,8 @@
 </p>
 
 <p align="center"> <b> A responsive desktop application displaying live Cryptocurrency prices </b> </p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Furqan17/crypto-desk/master/img-home-src/crypto-home.PNG">
+</p>
+  
