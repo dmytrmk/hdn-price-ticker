@@ -15,4 +15,7 @@
 </p>
 
 ## :zap: Installation
-Crypto desk requires _nodejs_. If you don't have it already you can download it [here.](https://nodejs.org/en/)
+Crypto desk requires _nodejs_. If you don't have it already you can download it [here.](https://nodejs.org/en/)  
+**1.** Clone this repository  
+**2.** `>cd` into the repo  
+
