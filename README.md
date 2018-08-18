@@ -18,4 +18,7 @@
 Crypto desk requires _nodejs_. If you don't have it already you can download it [here.](https://nodejs.org/en/)  
 **1.** Clone this repository  
 **2.** `>cd` into the repo  
+**3.** Run `>npm install` to install the dependencies  
+**4.** `>npm start` to launch crypto-desk
+
 
