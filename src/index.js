@@ -42,7 +42,8 @@ function getXRP() {
     });
 }
 
-//setInterval controls the refresh time; measured in milliseconds. Set at 5 seconds currently.
+// setInterval controls the refresh time; measured in milliseconds. Set at 5 seconds currently.
+// Cryptocurrency prices provided by CryptoCompare API (https://www.cryptocompare.com/api/)
 
 getBTC();
 setInterval(getBTC, 5000);
