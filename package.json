@@ -9,7 +9,7 @@
   "author": "Furqan17",
   "license": "MIT",
   "devDependencies": {
-    "electron": "2.0.5"
+    "electron": "2.0.8"
   },
   "dependencies": {
     "axios": "^0.18.0"
