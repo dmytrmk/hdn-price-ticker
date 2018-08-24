@@ -23,5 +23,7 @@ Crypto desk requires _nodejs_. If you don't have it already you can download it 
 **5.** Run `npm start` to launch crypto-desk
 
 ## :currency_exchange: API 
+Cryptocurrency prices are provided by [Cryptocompare API](https://min-api.cryptocompare.com/) 
 
+## :open_file_folder: Dependencies
 
