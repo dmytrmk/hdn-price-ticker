@@ -31,4 +31,8 @@ This application uses:
 - [Electron](https://electronjs.org)
 
 ## :heavy_exclamation_mark: To-Do
+A list of components to *(eventually)* add.
+- [ ] New/More coins
+- [ ] Add a Favourite coins page
+- [ ] Price desktop notifications
 
