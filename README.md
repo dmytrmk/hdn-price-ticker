@@ -28,7 +28,8 @@ Cryptocurrency prices are provided by [Cryptocompare API.](https://min-api.crypt
 ## :open_file_folder: Dependencies
 This application uses:
 - [Axios](https://www.npmjs.com/package/axios)
-- [Electron](https://electronjs.org)
+- [Electron](https://electronjs.org)  
+And is built using vanilla HTML/CSS.
 
 ## :heavy_exclamation_mark: To-Do
 A list of components to *(eventually)* add.
