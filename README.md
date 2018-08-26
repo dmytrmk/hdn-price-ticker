@@ -32,7 +32,8 @@ This application uses:
 
 ## :heavy_exclamation_mark: To-Do
 A list of components to *(eventually)* add.
-- [ ] New/More coins
+- [ ] Add price setting for desktop notifications
+- [ ] Add new/more coins
 - [ ] Add a Favourite coins page
-- [ ] Price desktop notifications
+
 
