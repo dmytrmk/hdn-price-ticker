@@ -15,7 +15,7 @@
 </p>
 
 ## :zap: Installation
-Crypto desk requires _nodejs_. If you don't have it already you can download it [here.](https://nodejs.org/en/)  
+Crypto desk **requires** _nodejs_. If you don't have it already you can download it [here.](https://nodejs.org/en/)  
 **1.** Fork this repository  
 **2.** clone and extract zip    
 **3.** `cd` into the repo  
@@ -26,10 +26,9 @@ Crypto desk requires _nodejs_. If you don't have it already you can download it 
 Cryptocurrency prices are provided by [Cryptocompare API.](https://min-api.cryptocompare.com/) 
 
 ## :open_file_folder: Dependencies
-This application uses:
+This application is built using vanilla **HTML/CSS** and utilises the following dependencies:
 - [Axios](https://www.npmjs.com/package/axios)
 - [Electron](https://electronjs.org)  
-And is built using vanilla HTML/CSS.
 
 ## :heavy_exclamation_mark: To-Do
 A list of components to *(eventually)* add.
