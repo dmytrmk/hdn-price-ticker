@@ -30,3 +30,5 @@ This application uses:
 - [Axios](https://www.npmjs.com/package/axios)
 - [Electron](https://electronjs.org)
 
+## :heavy_exclamation_mark: To-Do
+
