@@ -26,4 +26,7 @@ Crypto desk requires _nodejs_. If you don't have it already you can download it 
 Cryptocurrency prices are provided by [Cryptocompare API](https://min-api.cryptocompare.com/) 
 
 ## :open_file_folder: Dependencies
+This application uses:
+- [Axios](https://www.npmjs.com/package/axios)
+- [Electron](https://electronjs.org)
 
