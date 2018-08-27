@@ -19,7 +19,7 @@ Crypto desk **requires** _nodejs_. If you don't have it already you can download
 **1.** Fork this repository  
 **2.** clone and extract zip    
 **3.** `cd` into the repo  
-**4.** `npm install` to install the dependencies  
+**4.** `npm install` to install the dependencies *(listed below)*  
 **5.** Run `npm start` to launch crypto-desk
 
 ## :currency_exchange: API 
