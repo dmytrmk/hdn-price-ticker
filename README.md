@@ -27,7 +27,7 @@ Cryptocurrency prices are provided by [Cryptocompare API.](https://min-api.crypt
 
 ## :open_file_folder: Dependencies
 This application is built using vanilla **HTML/CSS** and utilises the following dependencies:
-- **[Axios:](https://www.npmjs.com/package/axios)** A promise based HTTP client for the browser and node.js. Some features include:
+- **[Axios:](https://www.npmjs.com/package/axios)** A promise based HTTP client for the browser and node.js. Some features *(from the [readme](https://github.com/Furqan17/crypto-desk/blob/master/axios/README.md))* include:
   - Make [XMLHttpRequests](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest) from the browser
   - Make [http](http://nodejs.org/api/http.html) requests from node.js
   - Supports the [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) API
