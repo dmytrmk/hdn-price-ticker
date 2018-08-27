@@ -27,13 +27,13 @@ Cryptocurrency prices are provided by [Cryptocompare API.](https://min-api.crypt
 
 ## :open_file_folder: Dependencies
 This application is built using vanilla **HTML/CSS** and utilises the following dependencies:
-- [Axios:](https://www.npmjs.com/package/axios) A promise based HTTP client for the browser and node.js. Some features include:
+- **[Axios:](https://www.npmjs.com/package/axios)** A promise based HTTP client for the browser and node.js. Some features include:
   - Make [XMLHttpRequests](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest) from the browser
   - Make [http](http://nodejs.org/api/http.html) requests from node.js
   - Supports the [Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) API
   - Automatic transforms for JSON data
   
-- [Electron:](https://electronjs.org) *(from their [website](https://electronjs.org/docs/tutorial/about))* is an open source library developed by GitHub for building cross-platform desktop applications with HTML, CSS, and JavaScript. Electron accomplishes this by combining [Chromium](https://www.chromium.org/Home) and [Node.js](https://nodejs.org/en/) into a single runtime and apps can be packaged for Mac, Windows, and Linux.
+- **[Electron:](https://electronjs.org)** *(from their [website](https://electronjs.org/docs/tutorial/about))* is an open source library developed by GitHub for building cross-platform desktop applications with HTML, CSS, and JavaScript. Electron accomplishes this by combining [Chromium](https://www.chromium.org/Home) and [Node.js](https://nodejs.org/en/) into a single runtime and apps can be packaged for Mac, Windows, and Linux.
 
 ## :heavy_exclamation_mark: To-Do
 A list of components to *(eventually)* add.
