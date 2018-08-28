@@ -41,6 +41,6 @@ This application is built using vanilla **HTML/CSS** and utilises the following 
 A list of components to *(eventually)* add.
 - [ ] Add price setting for desktop notifications
 - [ ] Add new/more coins
-- [ ] Add a Favourite coins page
+- [ ] Add a favourite coins page
 
 
