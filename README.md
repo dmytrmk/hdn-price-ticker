@@ -35,6 +35,8 @@ This application is built using vanilla **HTML/CSS** and utilises the following 
   
 - **[Electron:](https://electronjs.org)** *(from their [website](https://electronjs.org/docs/tutorial/about))* is an open source library developed by GitHub for building cross-platform desktop applications with HTML, CSS, and JavaScript. Electron accomplishes this by combining [Chromium](https://www.chromium.org/Home) and [Node.js](https://nodejs.org/en/) into a single runtime and apps can be packaged for Mac, Windows, and Linux.
 
+## :money_with_wings: Coins
+
 ## :heavy_exclamation_mark: To-Do List
 A list of components to *(eventually)* add.
 - [ ] Add price setting for desktop notifications
