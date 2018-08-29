@@ -37,6 +37,10 @@ This application is built using vanilla **HTML/CSS** and utilises the following 
 
 ## :money_with_wings: Coins
 
+
+| Coin       | Max Supply    | Start Date | Algorithm | Proof Type |
+| ---------- |:-------------:| ----------:|----------:|------------:
+
 ## :heavy_exclamation_mark: To-Do List
 A list of components to *(eventually)* add.
 - [ ] Add price setting for desktop notifications
