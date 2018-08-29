@@ -48,7 +48,7 @@ A list of components to *(eventually)* add.
   
 ---
 <p align="center">Copyright (c) 2018 <strong>Furqan17</strong>
-           
+           <br> Licensed under the <a href="https://github.com/Furqan17/crypto-desk/blob/master/LICENSE">MIT License</a>
 </p>
 
 
