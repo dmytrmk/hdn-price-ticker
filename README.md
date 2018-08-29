@@ -45,5 +45,10 @@ This application is built using vanilla **HTML/CSS** and utilises the following 
 A list of components to *(eventually)* add.
 - [ ] Add price setting for desktop notifications
 - [ ] Add new/more coins
+  
+---
+<p align="center">Copyright (c) 2018 <strong>Furqan17</strong>
+           
+</p>
 
 
