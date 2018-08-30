@@ -23,7 +23,9 @@ Crypto desk **requires** _nodejs_. If you don't have it already you can download
 **5.** Run `npm start` to launch crypto-desk
 
 ## :currency_exchange: API 
-Cryptocurrency prices are provided by [Cryptocompare API.](https://min-api.cryptocompare.com/) 
+Cryptocurrency prices are provided by [Cryptocompare API.](https://min-api.cryptocompare.com/)  
+
+**CryptocompareAPI** is a *free API* for getting cryptocurrency live pricing data, OHLC historical data, volume data or tick data from multiple exchanges. You can also get free aggregated news and block explorer data (supply, hashrate, latest block number etc). 
 
 ## :open_file_folder: Dependencies
 This application is built using vanilla **HTML/CSS** and utilises the following dependencies:
