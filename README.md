@@ -41,8 +41,8 @@ This application is built using vanilla **HTML/CSS** and utilises the following 
 This chart shows more information about each coin, Coin information is provided by [CryptoCompare.](https://www.cryptocompare.com/)
 
 | Coin       | Max Supply    | Start Date | Algorithm | Proof Type |
-| :--- |---|---|---|:---|
-|Bitcoin (BTC)|21,000,000|03/01/2009|SHA256|[(PoW)](https://en.bitcoin.it/wiki/Proof_of_work)|
+| :--- |:---:|:---:|:---:|:---:|
+|Bitcoin (BTC)|21,000,000|03/01/2009|SHA256|[Proof of Work](https://en.bitcoin.it/wiki/Proof_of_work)|
 
 ## :heavy_exclamation_mark: To-Do List
 A list of components to *(eventually)* add.
