@@ -46,8 +46,9 @@ This chart shows more information about each coin, Coin information is provided 
 
 ## :heavy_exclamation_mark: To-Do List
 A list of components to *(eventually)* add.
+- [x] Add new/more coins (partially done)
 - [ ] Add price setting for desktop notifications
-- [ ] Add new/more coins
+
   
 ---
 <p align="center">Copyright (c) 2018 <strong>Furqan17</strong>
