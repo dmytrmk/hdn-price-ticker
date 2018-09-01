@@ -45,6 +45,8 @@ This chart shows more information about each coin, Coin information is provided 
 |Bitcoin (BTC)|21,000,000|03/01/2009|SHA256|[Proof of Work](https://en.bitcoin.it/wiki/Proof_of_work)|
 |Etereum (ETH)|N/A|30/07/2015|Ethash|[Proof of Work](https://en.bitcoin.it/wiki/Proof_of_work)|
 
+## :wrench: Build 
+
 ## :heavy_exclamation_mark: To-Do List
 A list of components to *(eventually)* add.
 - [x] Add new/more coins (partially done)
