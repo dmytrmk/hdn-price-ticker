@@ -44,6 +44,7 @@ This chart shows more information about each coin, Coin information is provided 
 | :--- |:---:|:---:|:---:|:---:|
 |Bitcoin (BTC)|21,000,000|03/01/2009|SHA256|[Proof of Work](https://en.bitcoin.it/wiki/Proof_of_work)|
 |Etereum (ETH)|N/A|30/07/2015|Ethash|[Proof of Work](https://en.bitcoin.it/wiki/Proof_of_work)|
+|Litecoin (LTC)|84,000,000|313/10/2011|Scrypt|[Proof of Work](https://en.bitcoin.it/wiki/Proof_of_work)|
 
 ## :wrench: Build 
 
