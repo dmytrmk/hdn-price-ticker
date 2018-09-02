@@ -38,7 +38,7 @@ This application is built using vanilla **HTML/CSS** and utilises the following 
 - **[Electron:](https://electronjs.org)** *(from their [website](https://electronjs.org/docs/tutorial/about))* "is an open source library developed by GitHub for building cross-platform desktop applications with HTML, CSS, and JavaScript. Electron accomplishes this by combining [Chromium](https://www.chromium.org/Home) and [Node.js](https://nodejs.org/en/) into a single runtime and apps can be packaged for Mac, Windows, and Linux."
 
 ## :money_with_wings: Coins
-This chart shows more information about each coin, Coin information is provided by [CryptoCompare.](https://www.cryptocompare.com/)
+This chart shows more information about each coin, Coin information is provided by [CryptoCompare.](https://www.cryptocompare.com)
 
 | Coin       | Max Supply    | Start Date | Algorithm | Proof Type |
 | :--- |:---:|:---:|:---:|:---:|
