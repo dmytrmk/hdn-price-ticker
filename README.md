@@ -53,9 +53,8 @@ A list of components to *(eventually)* add.
 - [x] Add new/more coins (partially done)
 - [ ] Add price setting for desktop notifications
 
-  
----
-<p align="center">Copyright (c) 2018 <strong>Furqan17</strong>
+<p align="center"> ...
+           <br>Copyright (c) 2018 <strong>Furqan17</strong>
            <br> Licensed under the <a href="https://github.com/Furqan17/crypto-desk/blob/master/LICENSE">MIT License</a>
 </p>
 
