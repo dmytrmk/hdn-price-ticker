@@ -49,7 +49,11 @@ This chart shows more information about each cryptocoin, Coin information is pro
 
 ## :wrench: Build Customization
 #### 1.) Borderless Application
-There are many customizable elements of an [Electron](https://electronjs.org) app. In this specific application I decided not to add a frame, hence why the application is borderless.
+There are many customizable elements of an [Electron](https://electronjs.org) app. In this specific application I decided not to add a frame, hence why the application is borderless. If you would like to have a border for your application, make the following changes:  
+**1.** Open **main.js**.  
+**2.** Find the `createWindow()` function.  
+**3.** Edit this line 
+
 
 ## :heavy_exclamation_mark: To-Do List
 A list of components to *(eventually)* add.
