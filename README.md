@@ -52,7 +52,7 @@ This chart shows more information about each cryptocoin, Coin information is pro
 There are many customizable elements of an [Electron](https://electronjs.org) app. In this specific application I decided not to add a frame, hence why the application is borderless. If you would like to have a border for your application, make the following changes:  
 **1.** Open **main.js**.  
 **2.** Find the `createWindow()` function.  
-**3.** Edit this line
+**3.** Edit the following line
 ```javascript
 win = new BrowserWindow({
   width: 300, 
@@ -61,6 +61,7 @@ win = new BrowserWindow({
   minHeight:515, 
   frame: false}) // this line here
   ``` 
+  change `frame: true` (or remove it completely *as the default value is true*), After saving and starting electron you will now have a border for your application.
   
 
 
