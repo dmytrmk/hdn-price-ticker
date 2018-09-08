@@ -49,7 +49,7 @@ This chart shows more information about each cryptocoin, Coin information is pro
 
 ## :wrench: Build Customization
 #### 1.) Borderless Application
-There are many customizable aspects of an [Electron](https://electronjs.org) app. In this specific application I decided not to add a frame, hence why the application is borderless.
+There are many customizable elements of an [Electron](https://electronjs.org) app. In this specific application I decided not to add a frame, hence why the application is borderless.
 
 ## :heavy_exclamation_mark: To-Do List
 A list of components to *(eventually)* add.
