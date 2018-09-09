@@ -63,7 +63,7 @@ win = new BrowserWindow({
   ``` 
   change `frame: true` (or remove it completely *as the default value is true*), After saving and starting electron you will now have a border for your application.
   
-### 2.) App responsiveness
+#### 2.) App responsiveness
 This app was designed with a mobile first approach therefore you are able to resize the application to your liking.
 
   
