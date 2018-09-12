@@ -66,12 +66,12 @@ win = new BrowserWindow({
 <p align="center">
   <img src="https://raw.githubusercontent.com/Furqan17/crypto-desk/master/img-home-src/border-screenshot.PNG">
 </p>
-  
+
 #### 2.) App responsiveness
 This app was designed with a mobile first approach therefore you are able to resize the application to your liking.
 
+#### 3.) Developer Tools
   
-
 
 ## :heavy_exclamation_mark: To-Do List
 A list of components to *(eventually)* add.
