@@ -71,6 +71,9 @@ win = new BrowserWindow({
 This app was designed with a mobile first approach. The application is responsive and you can resize the app to your liking.
 
 #### 3.) Developer Tools
+If you wish to use developer tools while using Crypto Desk:  
+**1.** Open **main.js**.  
+   
   
 
 ## :heavy_exclamation_mark: To-Do List
