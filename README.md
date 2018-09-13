@@ -68,7 +68,7 @@ win = new BrowserWindow({
 </p>
 
 #### 2.) App responsiveness
-This app was designed with a mobile first approach therefore you are able to resize the application to your liking.
+This app was designed with a mobile first approach. The application is responsive and you can resize the app to your liking.
 
 #### 3.) Developer Tools
   
