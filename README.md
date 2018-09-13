@@ -73,6 +73,9 @@ This app was designed with a mobile first approach. The application is responsiv
 #### 3.) Developer Tools
 If you wish to use developer tools while using Crypto Desk:  
 **1.** Open **main.js**.  
+**2.** Find the `createWindow()` function.  
+**3.** Edit the following line  
+
    
   
 
