@@ -74,10 +74,8 @@ This app was designed with a mobile first approach. The application is responsiv
 If you wish to use developer tools while using Crypto Desk:  
 **1.** Open **main.js**.  
 **2.** Find the `createWindow()` function.  
-**3.** Edit the following line  
-
-   
-  
+**3.** Edit the following line.   
+Remove the comment from line: `win.webContents.openDevTools()`. After restarting electron, you will now have developer tools enabled.
 
 ## :heavy_exclamation_mark: To-Do List
 A list of components to *(eventually)* add.
