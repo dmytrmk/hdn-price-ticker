@@ -1,10 +1,12 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:300,600");
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,600');
 
 body {
   background: rgb(0, 8, 71);
   color: #fff;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   -webkit-app-region: drag;
+  margin: 0;
+  padding: 0;
 }
 
 .row {
@@ -49,7 +51,7 @@ body {
   -webkit-app-region: drag;
 }
 
-#price-containerXRP {
+#price-containerHDN {
   display: inline;
   background: linear-gradient(to right, rgb(36, 34, 155), rgb(26, 199, 230));
   padding: 0 10px;
