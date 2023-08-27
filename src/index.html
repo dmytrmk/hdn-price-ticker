@@ -1,25 +1,32 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>HDN Ticker</title>
+    <link rel="stylesheet" href="../assets/css/main.css" />
+    <link rel="stylesheet" href="../assets/css/chart.css" />
 
-<head>
-  <meta charset="UTF-8">
-  <title>HDN Ticker</title>
-  <link rel="stylesheet" href="../assets/css/main.css">
-</head>
+    <!-- <script src="https://cdn.canvasjs.com/canvasjs.min.js"></script> -->
+  </head>
 
-<body style="-webkit-app-region: drag">
-
-  <div id="drag-object">
-    <div class="row">
-      <div id="price-containerHDN">
-        <p class="subtext">HDN Price:</p>
-        <h1 id="priceHDN">Loading...</h1>
+  <body style="-webkit-app-region: drag" class="dark-theme">
+    <div id="drag-object">
+      <div class="row">
+        <div id="price-containerHDN">
+          <div class="subtext">
+            <img
+              src="../assets/hdn.png"
+              height="20"
+              width="20"
+              alt="HDN Logo"
+            />
+            <span>= <span id="price">...</span></span>
+          </div>
+          <!-- <h1 id="priceHDN">Loading...</h1> -->
+        </div>
       </div>
+      <div id="chartContainer"></div>
+      <script src="index.js"></script>
     </div>
-    <script src="index.js"></script>
-
-  </div>
-
-</body>
-
+  </body>
 </html>

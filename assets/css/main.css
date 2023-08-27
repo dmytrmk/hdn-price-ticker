@@ -1,65 +1,43 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,600');
 
 body {
-  background: rgb(0, 8, 71);
+  /* background: rgb(0, 8, 71); */
   color: #fff;
   font-family: 'Montserrat';
   -webkit-app-region: drag;
   margin: 0;
   padding: 0;
+  /* border: 1px solid red; */
+  /* max-height: 80px;
+  max-width: 220px; */
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color: white;
+}
+
+.dark-theme {
+  background-color: #0c1421;
+}
+
+.dark-theme .subtext {
+  color: #fff;
 }
 
 .row {
   width: 100%;
-  background: rgb(0, 8, 71);
+  /* background: rgb(0, 8, 71); */
   display: grid;
   grid-template-columns: 100%;
   align-items: center;
   -webkit-app-region: drag;
 }
 
-#price-containerBTC {
-  display: inline;
-  background: linear-gradient(to right, rgb(53, 53, 194), rgb(173, 45, 173));
-  padding: 0 10px;
-  text-align: center;
-  border-radius: 25px;
-  margin: 3%;
-  box-shadow: 2px 5px 4px #313131;
-  -webkit-app-region: drag;
-}
-
-#price-containerETH {
-  display: inline;
-  background: linear-gradient(to right, rgb(200, 198, 47), rgb(29, 211, 105));
-  padding: 0 10px;
-  text-align: center;
-  border-radius: 25px;
-  margin: 3%;
-  box-shadow: 2px 5px 4px #313131;
-  -webkit-app-region: drag;
-}
-
-#price-containerLTC {
-  display: inline;
-  background: linear-gradient(to right, rgb(153, 25, 42), rgb(218, 147, 34));
-  padding: 0 10px;
-  text-align: center;
-  margin: 3%;
-  border-radius: 25px;
-  box-shadow: 2px 5px 4px #313131;
-  -webkit-app-region: drag;
-}
-
 #price-containerHDN {
   display: inline;
-  background: linear-gradient(to right, rgb(36, 34, 155), rgb(26, 199, 230));
-  padding: 0 10px;
   text-align: center;
-  margin: 3%;
-  border-radius: 25px;
-  box-shadow: 2px 5px 4px #313131;
+  max-height: 80px;
   -webkit-app-region: drag;
+  user-select: none;
 }
 
 .subtext {
@@ -67,6 +45,7 @@ body {
   text-transform: uppercase;
   margin-bottom: 10px;
   font-weight: bold;
+  color: #000;
 }
 
 h1 {
@@ -77,4 +56,33 @@ h1 {
   text-align: center;
   font-size: 1.8em;
   margin: 5%;
+}
+
+.ct-series-a .ct-line {
+  stroke: #19c785 !important;
+  stroke-width: 2px;
+  fill: transparent;
+}
+
+.ct-area {
+  fill: #19c785 !important;
+}
+
+.subtext {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 15px;
+}
+
+@media screen and (max-heigth: 200px) {
+  #chartContainer {
+    display: none !important;
+  }
+}
+
+img {
+  user-select: none;
+  margin-right: 3px;
 }

@@ -1,4 +1,6 @@
-const { app, BrowserWindow } = require('electron');
+const { app, BrowserWindow, screen } = require('electron');
+const path = require('path');
+const contextMenu = require('electron-context-menu');
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
@@ -11,14 +13,78 @@ function createWindow() {
     // minWidth: 300,
     // height: 515,
     frame: false,
+    height: 130,
+    width: 220,
+    // maxWidth: 220,
+    maxHeight: 130,
+    webPreferences: {
+      nodeIntegration: true,
+      contextIsolation: false,
+      enableRemoteModule: true,
+    },
+    icon: path.join(__dirname, 'assets/hdn-bond.png'),
   });
+
   win.setMenu(null);
 
   // and load the index.html of the app.
   win.loadFile('src/index.html');
 
   // Open the DevTools.
-  win.webContents.openDevTools();
+  // win.webContents.openDevTools();
+
+  let isCompactMode = false;
+  let isDarkTheme = true;
+
+  contextMenu({
+    prepend: (defaultActions, params, browserWindow) => [
+      {
+        label: 'Always on Top',
+        type: 'checkbox',
+        checked: win.isAlwaysOnTop(),
+        click: (menuItem, browserWindow) => {
+          win.setAlwaysOnTop(!win.isAlwaysOnTop());
+        },
+      },
+      {
+        label: isCompactMode ? 'Expanded Mode' : 'Compact Mode',
+        click: () => {
+          if (isCompactMode) {
+            win.setSize(220, 130);
+          } else {
+            win.setSize(130, 45);
+          }
+          isCompactMode = !isCompactMode;
+        },
+      },
+      {
+        label: isDarkTheme ? 'Light Theme' : 'Dark Theme',
+        click: (menuItem, browserWindow) => {
+          isDarkTheme = !isDarkTheme;
+          win.webContents.send('toggle-theme', isDarkTheme ? 'dark' : 'light');
+        },
+      },
+      {
+        label: 'Stick top right',
+        click: (menuItem, browserWindow) => {
+          const { width } = screen.getPrimaryDisplay().workAreaSize;
+          win.setPosition(width - win.getBounds().width, 0);
+        },
+      },
+      {
+        label: 'Devtools',
+        click: () => {
+          win.webContents.openDevTools();
+        },
+      },
+      {
+        label: 'Exit',
+        click: () => {
+          app.quit();
+        },
+      },
+    ],
+  });
 
   // Emitted when the window is closed.
   win.on('closed', () => {
